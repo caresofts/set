@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="style/settings_phone.css" data-device-type="phone">
     <link rel="stylesheet" type="text/css" href="style/dialog.css">
     <link rel="stylesheet" type="text/css" href="style/icc.css">
-
+    <!-- Panel Stylesheets
     <link rel="stylesheet" type="text/css" href="shared/style/action_menu.css"/>
     <link rel="stylesheet" type="text/css" href="shared/style/confirm.css"/>
     <link rel="stylesheet" type="text/css" href="shared/style/progress_activity.css"/>
@@ -40,6 +40,7 @@
     <script defer="" src="shared/elements/gaia_confirm/script.js"></script>
     -->
 
+    <!-- Shared resources
     <link rel="resource" type="application/json" href="shared/resources/tz.json"/>
     <link rel="resource" type="application/json" href="shared/resources/apn.json"/>
     <link rel="resource" type="application/json" href="shared/resources/apn_tz.json"/>
@@ -79,69 +80,71 @@
     <script src="shared/js/moz_intl.js"></script>
     <script defer="" src="shared/js/date_time_helper.js"></script>
 
+    <!-- Lazy loader -->
     <script src="shared/js/lazy_loader.js"></script>
 
+    <!-- Screen layout watcher -->
     <script defer="" src="shared/js/screen_layout.js"></script>
 
+    <!-- shared helper library -->
+    <!--<script defer src="shared/js/addons/match_pattern.js"></script>-->
+    <!--<script defer src="shared/js/download/download_store.js"></script>-->
+    <!--<script defer src="shared/js/download/download_helper.js"></script>-->
+    <!--<script defer src="shared/js/download/download_ui.js"></script>-->
+    <!--<script defer src="shared/js/mime_mapper.js"></script>-->
+    <!--<script defer src="shared/js/download/download_formatter.js"></script>-->
+    <!--<script defer src="shared/js/icc_helper.js"></script>-->
+    <!--<script defer src="shared/js/input_mgmt/input_app_list.js"></script>-->
+    <!--<script defer src="shared/js/keyboard_helper.js"></script>-->
+    <!--<script defer src="shared/js/language_list.js"></script>-->
+    <!--<script defer src="shared/js/manifest_helper.js"></script>-->
+    <!--<script defer src="shared/js/mobile_operator.js"></script>-->
+    <!--<script defer src="shared/js/async_storage.js"></script>-->
+    <!--<script defer src="shared/js/wifi_helper.js"></script>-->
+    <!--<script defer src="shared/js/settings_helper.js"></script> -->
+    <!--<script defer src="shared/js/settings_listener.js"></script> -->
+    <!--<script defer src="shared/js/airplane_mode_helper.js"></script> -->
+    <!--<script defer src="shared/js/toaster.js"></script> -->
+    <!--<script defer src="shared/js/lazy_loader.js"></script> -->
+    <!--<script defer src="shared/js/screen_layout.js"></script> -->
+    <!--<script defer src="shared/js/fxa_iac_client.js"></script> -->
+    <!--<script defer src="shared/js/text_normalizer.js"></script> -->
+    <!--<script defer src="shared/js/settings_url.js"></script> -->
+    <!--<script defer src="shared/js/simslot.js"></script> -->
+    <!--<script defer src="shared/js/simslot_manager.js"></script> -->
+    <!--<script defer src="shared/js/omadrm/fl.js"></script> -->
+    <!--<script defer src="shared/js/device_storage/enumerate_all.js"></script> -->
+    <!--<script defer src="shared/js/tz_select.js"></script> -->
+    <!--<script defer src="shared/js/sim_settings_helper.js"></script> -->
+    <!--<script defer src="shared/js/sanitizer.js"></script> -->
+    <!--<script defer src="shared/js/format.js"></script> -->
+    <!--<script defer src="shared/js/search_provider.js"></script> -->
+    <!--<script defer src="shared/js/homescreens/homescreen_settings.js"></script> -->
+    <!--<script defer src="shared/js/stk_helper.js"></script>-->
+    <!--<script defer src="shared/js/uuid.js"></script>-->
+    <!--<script defer src="shared/js/passcode_helper.js"></script>-->
+    <!--<script defer src="shared/js/sync/errors.js"></script>-->
+    <!--<script defer src="shared/js/findmydevice_iac_api.js"></script>-->
 
-    
-   <script defer src="shared/js/addons/match_pattern.js"></script>-->
-   script defer src="shared/js/download/download_store.js"></script>-->
-    <script defer src="shared/js/download/download_helper.js"></script>-->
-    <<script defer src="shared/js/download/download_ui.js"></script>-->
-    <script defer src="shared/js/mime_mapper.js"></script>
-    <script defer src="shared/js/download/download_formatter.js"></script>
-    <script defer src="shared/js/icc_helper.js"></script>
-    <script defer src="shared/js/input_mgmt/input_app_list.js"></script>
-    <script defer src="shared/js/keyboard_helper.js"></script>-->
-    <script defer src="shared/js/language_list.js"></script>-->
-   <script defer src="shared/js/manifest_helper.js"></script>-->
-    <script defer src="shared/js/mobile_operator.js"></script>-->
-    <script defer src="shared/js/async_storage.js"></script>-->
-    <script defer src="shared/js/wifi_helper.js"></script>-->
-    <script defer src="shared/js/settings_helper.js"></script> -->
-    <script defer src="shared/js/settings_listener.js"></script> -->
-    <script defer src="shared/js/airplane_mode_helper.js"></script> -->
-    <script defer src="shared/js/toaster.js"></script> -->
-    <script defer src="shared/js/lazy_loader.js"></script> -->
-    <script defer src="shared/js/screen_layout.js"></script> -->
-    <script defer src="shared/js/fxa_iac_client.js"></script> -->
-    <script defer src="shared/js/text_normalizer.js"></script> -->
-    <script defer src="shared/js/settings_url.js"></script> -->
-    <script defer src="shared/js/simslot.js"></script> -->
-    <script defer src="shared/js/simslot_manager.js"></script> -->
-    <script defer src="shared/js/omadrm/fl.js"></script> -->
-    <script defer src="shared/js/device_storage/enumerate_all.js"></script> -->
-    <script defer src="shared/js/tz_select.js"></script> -->
-    <script defer src="shared/js/sim_settings_helper.js"></script> -->
-   <script defer src="shared/js/sanitizer.js"></script> -->
-    <script defer src="shared/js/format.js"></script> 
-    <script defer src="shared/js/search_provider.js"></script> -->
-   <script defer src="shared/js/homescreens/homescreen_settings.js"></script> -->
-   <script defer src="shared/js/stk_helper.js"></script>-->
-    <script defer src="shared/js/uuid.js"></script>-->
-    <script defer src="shared/js/passcode_helper.js"></script>-->
-   <script defer src="shared/js/sync/errors.js"></script>-->
-   <script defer src="shared/js/findmydevice_iac_api.js"></script>-->
-
-   
+    <!-- all non-#root panels will lazy-load their own scripts -->
     
     
     
     
-    
-    
-    
-    
-    
-
     
     
     
     
     
 
+    <!-- Call Forwarding -->
+    
+    
+    
+    
+    
 
+    <!-- Call Barring -->
     
     
 
@@ -229,8 +232,32 @@
     
   <meta content="2.5" name="appVersion"></head>
   <body class="skin-organic uninit theme-settings">
-   
-    <section role="region" class="dialog" id="wifi-status">
+    <!--
+      - Lazy-Loading: to avoid parsing all settings panels before necessary, the
+      - HTML markup is included in a comment node and applied with `.innerHTML'
+      - when the sub-panel is loaded.
+      -
+      - When a panel includes <script> nodes, these scripts might require all
+      - sub-panels to be loaded to work properly. We rely on the panel ID to get
+      - its dependencies, e.g. the #wifi panel depends on all panels matching
+      - the « section[id^="wifi-"] » selector.
+      -
+      - Long story short: BE VERY CAREFUL WHEN CHANGING A SECTION ID!
+      -
+      - Regarding data-require-sub-panels: This is a temporary declarative way
+      - to say that a panel requires the all subpanels which match the pattern
+      - 'section[id^="' + panel.id + '-"]' to be loaded before loading.
+      - This is to be removed soon in bug 922658.
+      -->
+
+    <!--
+      - Note: the panels are stacked in reverse order on purpose - the main
+      - panel always comes last.  With this order, no 'z-index' rule is required
+      - to handle the panel transitions.
+      -->
+
+    <!-- Connectivity :: Wi-Fi :: Network Status -->
+    <section role="region" class="dialog" id="wifi-status"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -271,7 +298,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi :: Network Authentication -->
-    <section role="region" class="dialog" id="wifi-auth">
+    <section role="region" class="dialog" id="wifi-auth"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -344,7 +371,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi :: Join Hidden Network -->
-    <section role="region" class="dialog" id="wifi-joinHidden">
+    <section role="region" class="dialog" id="wifi-joinHidden"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -420,7 +447,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi :: WPS -->
-    <section role="region" class="dialog" id="wifi-wps">
+    <section role="region" class="dialog" id="wifi-wps"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -465,7 +492,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi :: Saved Networks -->
-    <section role="region" id="wifi-manageNetworks">
+    <section role="region" id="wifi-manageNetworks"><!--
 
     <gaia-header action="back" data-href="#wifi">
       <h1 data-l10n-id="manageNetworks-header"></h1>
@@ -512,7 +539,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi :: Manage Certificates -->
-    <section role="region" id="wifi-manageCertificates">
+    <section role="region" id="wifi-manageCertificates"><!--
 
     <gaia-header action="back" data-href="#wifi">
       <h1 data-l10n-id="manageCertificates-header"></h1>
@@ -550,7 +577,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi :: Select Certificate File -->
-    <section role="region" id="wifi-selectCertificateFile">
+    <section role="region" id="wifi-selectCertificateFile"><!--
 
     <gaia-header action="back" data-href="#wifi-manageCertificates">
       <h1 data-l10n-id="selectCertificateFile"></h1>
@@ -565,7 +592,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi :: Enter Certificate Nickname -->
-    <section role="region" class="dialog" id="wifi-enterCertificateNickname">
+    <section role="region" class="dialog" id="wifi-enterCertificateNickname"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -589,7 +616,7 @@
 
   --></section>
     <!-- Connectivity :: Wi-Fi -->
-    <section role="region" id="wifi">
+    <section role="region" id="wifi"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="wifi-header"></h1>
@@ -664,9 +691,9 @@
         <button data-l10n-id="ok" class="wifi-bad-credentials-confirm recommend"></button>
       </menu>
     </form>
- </section>
-    Connectivity :: Call :: Call Forwarding Not Reachable 
-    <section role="region" class="dialog" id="call-cf-not-reachable-settings">
+  --></section>
+    <!-- Connectivity :: Call :: Call Forwarding Not Reachable -->
+    <section role="region" class="dialog" id="call-cf-not-reachable-settings"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -691,9 +718,9 @@
 
     <panel data-path="panels/call_forwarding_details/panel"></panel>
 
-</section>
+  --></section>
     <!-- Connectivity :: Call :: Call Forwarding No Reply -->
-    <section role="region" class="dialog" id="call-cf-no-reply-settings">
+    <section role="region" class="dialog" id="call-cf-no-reply-settings"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -720,7 +747,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Call Forwarding Mobile Busy -->
-    <section role="region" class="dialog" id="call-cf-mobile-busy-settings">
+    <section role="region" class="dialog" id="call-cf-mobile-busy-settings"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -747,7 +774,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Call Forwarding Unconditional -->
-    <section role="region" class="dialog" id="call-cf-unconditional-settings">
+    <section role="region" class="dialog" id="call-cf-unconditional-settings"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -774,7 +801,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Call Forwarding Settings -->
-    <section role="region" id="call-forwarding">
+    <section role="region" id="call-forwarding"><!--
 
     <gaia-header action="back" data-href="#call">
       <h1 data-l10n-id="callForwarding-header"></h1>
@@ -813,7 +840,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Call Barring Settings -->
-    <section role="region" id="call-cbSettings">
+    <section role="region" id="call-cbSettings"><!--
 
     <gaia-header action="back" data-href="#call">
       <h1 data-l10n-id="callBarring-header"></h1>
@@ -894,7 +921,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Call Barring Passcode Change -->
-    <section role="region" id="call-barring-passcode-change">
+    <section role="region" id="call-barring-passcode-change"><!--
 
     <gaia-header action="back" data-href="#call-cbSettings">
       <h1 data-l10n-id="callBarring-current-passcode" data-mode="edit"></h1>
@@ -928,7 +955,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Fixed Dialing Numbers (FDN) :: Authorized Numbers :: Add -->
-    <section role="region" class="dialog" id="call-fdnList-add">
+    <section role="region" class="dialog" id="call-fdnList-add"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -953,7 +980,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Fixed Dialing Numbers (FDN) :: Authorized Numbers -->
-    <section role="region" id="call-fdnList" data-require-sub-panels="true">
+    <section role="region" id="call-fdnList" data-require-sub-panels="true"><!--
 
     <gaia-header action="back" data-href="#call-fdnSettings">
       <h1 data-l10n-id="fdn-authorizedNumbers-header"></h1>
@@ -981,7 +1008,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Fixed Dialing Numbers (FDN) -->
-    <section role="region" id="call-fdnSettings">
+    <section role="region" id="call-fdnSettings"><!--
 
     <gaia-header action="back" data-href="#call">
       <h1 data-l10n-id="fdnSettings-header"></h1>
@@ -1017,7 +1044,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: Voice Mail -->
-    <section role="region" class="dialog" id="call-voiceMailSettings">
+    <section role="region" class="dialog" id="call-voiceMailSettings"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -1038,7 +1065,7 @@
 
   --></section>
     <!-- Connectivity :: Call :: ICCs -->
-    <section role="region" id="call-iccs">
+    <section role="region" id="call-iccs"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="selectASIMCard"></h1>
@@ -1065,7 +1092,7 @@
 
   --></section>
     <!-- Connectivity :: Call -->
-    <section role="region" id="call" data-require-sub-panels="true">
+    <section role="region" id="call" data-require-sub-panels="true"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="callSettings-header"></h1>
@@ -1143,7 +1170,7 @@
 
   --></section>
     <!-- Connectivity :: Messaging :: Details -->
-    <section role="region" id="messaging-details">
+    <section role="region" id="messaging-details"><!--
 
     <gaia-header action="back" data-href="#messaging">
       <h1 data-l10n-id="messaging-sim-settings"></h1>
@@ -1155,7 +1182,7 @@
 
   --></section>
     <!-- Connectivity :: Messaging -->
-    <section role="region" id="messaging">
+    <section role="region" id="messaging"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="messagingSettings-header"></h1>
@@ -1229,7 +1256,7 @@
 
   --></section>
     <!-- Connectivity :: Cellular & Data :: Network Operator -->
-    <section role="region" id="operator-settings">
+    <section role="region" id="operator-settings"><!--
 
     <gaia-header action="back" data-href="#carrier">
       <h1 data-l10n-id="netOperator-header"></h1>
@@ -1279,7 +1306,7 @@
 
   </panel></panel>--></section>
     <!-- Connectivity :: Cellular & Data :: APN Settings -->
-    <section role="region" id="apn-settings">
+    <section role="region" id="apn-settings"><!--
 
     <gaia-header action="back" data-href="#carrier">
       <h1 data-l10n-id="apnSettings-header"></h1>
@@ -1327,7 +1354,7 @@
 
   </panel></panel>--></section>
     <!-- Connectivity :: Cellular & Data :: APN List -->
-    <section role="region" id="apn-list">
+    <section role="region" id="apn-list"><!--
 
     <gaia-header action="back">
       <h1></h1>
@@ -1346,7 +1373,7 @@
 
   </panel></panel>--></section>
     <!-- Connectivity :: Cellular & Data :: APN Editor -->
-    <section role="region" id="apn-editor">
+    <section role="region" id="apn-editor"><!--
 
     <gaia-header action="back" data-href="#apn-list">
       <h1 data-l10n-id="apn-editor-header"></h1>
@@ -1441,7 +1468,7 @@
 
   </panel></panel>--></section>
     <!-- Connectivity :: Cellular & Data :: Detail -->
-    <section role="region" id="carrier-detail">
+    <section role="region" id="carrier-detail"><!--
 
     <gaia-header action="back" data-href="#carrier">
       <h1 data-l10n-id="netOperator-header"></h1>
@@ -1464,7 +1491,7 @@
 
   --></section>
     <!-- Connectivity :: Cellular & Data -->
-    <section role="region" id="carrier" data-require-sub-panels="true">
+    <section role="region" id="carrier" data-require-sub-panels="true"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="cellularAndData-header"></h1>
@@ -1541,7 +1568,7 @@
 
   --></section>
     <!-- Connectivity :: Bluetooth -->
-    <section role="region" id="bluetooth">
+    <section role="region" id="bluetooth"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="bluetooth-header"></h1>
@@ -1598,7 +1625,7 @@
 
   --></section>
     <!-- Connectivity :: Internet Sharing :: Portable Wi-Fi Hotspot -->
-    <section role="region" class="dialog" id="hotspot-wifiSettings">
+    <section role="region" class="dialog" id="hotspot-wifiSettings"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -1635,7 +1662,7 @@
 
   --></section>
     <!-- Connectivity :: Internet Sharing -->
-    <section role="region" id="hotspot">
+    <section role="region" id="hotspot"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="internetSharing-header"></h1>
@@ -1682,7 +1709,7 @@
   --></section>
 
     <!-- Personalization :: Sound -->
-    <section role="region" id="sound">
+    <section role="region" id="sound"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="sound-header"></h1>
@@ -1787,7 +1814,7 @@
 
   --></section>
     <!-- Personalization :: Display -->
-    <section role="region" id="display">
+    <section role="region" id="display"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="display-header"></h1>
@@ -1837,7 +1864,7 @@
 
   --></section>
     <!-- Personalization :: Home Screens -->
-    <section role="region" id="homescreens">
+    <section role="region" id="homescreens"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="home-screens"></h1>
@@ -1890,7 +1917,7 @@
 
   --></section>
     <!-- Personalization :: Home Screens :: Home Screens List -->
-    <section role="region" id="homescreens-list">
+    <section role="region" id="homescreens-list"><!--
 
     <gaia-header action="back" data-href="#homescreens">
       <h1 data-l10n-id="change-home-screen"></h1>
@@ -1915,7 +1942,7 @@
 
   --></section>
     <!-- Personalization :: Home Screens :: Home Screens List :: Home Screen Details -->
-    <section role="region" id="homescreen-details">
+    <section role="region" id="homescreen-details"><!--
 
     <gaia-header action="back" data-href="#homescreens-list">
       <h1 class="detail-title"></h1>
@@ -1946,7 +1973,7 @@
 
   --></section>
     <!-- Personalization :: Search -->
-    <section role="region" id="search">
+    <section role="region" id="search"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="search-header"></h1>
@@ -1976,7 +2003,7 @@
 
   --></section>
     <!-- Personalization :: Navigation -->
-    <section role="region" id="navigation">
+    <section role="region" id="navigation"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="navigation-header"></h1>
@@ -1995,7 +2022,7 @@
 
   --></section>
     <!-- Personalization :: Notifications -->
-    <section role="region" id="notifications">
+    <section role="region" id="notifications"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="notifications-header"></h1>
@@ -2018,7 +2045,7 @@
 
   --></section>
     <!-- Personalization :: Date & Time -->
-    <section role="region" id="dateTime">
+    <section role="region" id="dateTime"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="dateAndTime-header"></h1>
@@ -2090,7 +2117,7 @@
 
   </panel></panel>--></section>
     <!-- Personalization :: Language & Region -->
-    <section role="region" id="languages">
+    <section role="region" id="languages"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="language-header"></h1>
@@ -2142,7 +2169,8 @@
 
   --></section>
     <!-- Personalization :: SIM card manager -->
-    <section role="region" id="sim-manager">
+    <section role="region" id="sim-manager"><!--
+
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="simManager-header"></h1>
     </gaia-header>
@@ -2186,7 +2214,7 @@
 
   --></section>
     <!-- Personalization :: Keyboard :: Select Keyboard :: Add More Keyboards -->
-    <section role="region" id="keyboard-selection-addMore">
+    <section role="region" id="keyboard-selection-addMore"><!--
 
     <gaia-header action="back" data-href="#keyboard">
       <h1 data-l10n-id="selectKeyboards-header"></h1>
@@ -2230,7 +2258,7 @@
 
   --></section>
     <!-- Personalization :: Themes -->
-    <section role="region" id="themes">
+    <section role="region" id="themes"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="themes-header"></h1>
@@ -2244,7 +2272,7 @@
 
   --></section>
     <!-- Personalization :: Addons -->
-    <section role="region" id="addons">
+    <section role="region" id="addons"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="addons-header"></h1>
@@ -2269,7 +2297,7 @@
 
   --></section>
     <!-- Personalization :: Addons :: details -->
-    <section role="region" id="addon-details">
+    <section role="region" id="addon-details"><!--
 
     <gaia-header action="back" data-href="#addons" hidden="">
       <h1 class="addon-details-header" data-l10n-id="addon-details-header1"></h1>
@@ -2328,7 +2356,7 @@
     <!-- <section role="region" is="achievements" id="achievements"></section> -->
 
     <!-- Accounts :: Find My Device -->
-    <section role="region" id="findmydevice">
+    <section role="region" id="findmydevice"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="findmydevice"></h1>
@@ -2388,7 +2416,7 @@
     
 
     <!-- Security :: Screen Lock :: PIN Input -->
-    <section role="region" class="dialog" id="screenLock-passcode">
+    <section role="region" class="dialog" id="screenLock-passcode"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -2423,7 +2451,7 @@
 
   --></section>
     <!-- Security :: Screen Lock -->
-    <section role="region" id="screenLock" data-passcode-enabled="false" data-lockscreen-enabled="false">
+    <section role="region" id="screenLock" data-passcode-enabled="false" data-lockscreen-enabled="false"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="screenLock-header"></h1>
@@ -2464,7 +2492,7 @@
 
   --></section>
     <!-- Security :: SIM Security :: SIM PIN Input -->
-    <section role="region" class="dialog" id="simpin-dialog">
+    <section role="region" class="dialog" id="simpin-dialog"><!--
 
     <gaia-header>
       <button type="reset"><span data-icon="close" data-l10n-id="closeButton"></span></button>
@@ -2504,7 +2532,7 @@
 
   --></section>
     <!-- Security :: SIM Security -->
-    <section role="region" id="simpin" data-require-sub-panels="true">
+    <section role="region" id="simpin" data-require-sub-panels="true"><!--
 
     <gaia-header class="simpin-header" action="back" data-href="#root">
       <h1 data-l10n-id="simSecurity-header"></h1>
@@ -2527,7 +2555,7 @@
 
   </panel></panel>--></section>
     <!-- Security :: Application Permissions :: Details -->
-    <section role="region" id="appPermissions-details"
+    <section role="region" id="appPermissions-details"><!--
 
     <gaia-header action="back">
       <h1 class="detail-title"></h1>
@@ -2562,7 +2590,7 @@
 
   --></section>
     <!-- Security :: Application Permissions -->
-    <section role="region" id="appPermissions">
+    <section role="region" id="appPermissions"><!--
 
     <gaia-header action="back" data-href="root">
       <h1 data-l10n-id="appPermissions-header"></h1>
@@ -2576,7 +2604,7 @@
 
   --></section>
     <!-- Security :: Do Not Track -->
-    <section role="region" id="doNotTrack">
+    <section role="region" id="doNotTrack"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="doNotTrack-header"></h1>
@@ -2618,7 +2646,7 @@
 
   --></section>
     <!-- Security :: Browser -->
-    <section role="region" id="browsingPrivacy">
+    <section role="region" id="browsingPrivacy"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="browsingPrivacy-header"></h1>
@@ -2672,7 +2700,7 @@
   --></section>
 
     <!-- Device :: Information :: More Information -->
-    <section role="region" id="about-moreInfo">
+    <section role="region" id="about-moreInfo"><!--
 
     <gaia-header action="back" data-href="#about">
       <h1 data-l10n-id="more-info-header"></h1>
@@ -2760,7 +2788,7 @@
 
   --></section>
     <!-- Device :: Information :: Your Rights -->
-    <section role="region" id="about-yourRights">
+    <section role="region" id="about-yourRights"><!--
 
     <gaia-header action="back" data-href="#about">
       <h1 data-l10n-id="your-rights-header"></h1>
@@ -2785,7 +2813,7 @@
 
   --></section>
     <!-- Device :: Information :: Your Privacy -->
-    <section role="region" id="about-yourPrivacy">
+    <section role="region" id="about-yourPrivacy"><!--
 
     <gaia-header action="back" data-href="#about">
       <h1 data-l10n-id="your-privacy-header"></h1>
@@ -2860,7 +2888,7 @@
 
   --></section>
     <!-- Device :: Information -->
-    <section role="region" id="about">
+    <section role="region" id="about"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="deviceInfo-header"></h1>
@@ -2979,7 +3007,7 @@
 
   --></section>
     <!-- Device :: Downloads -->
-    <section role="region" id="downloads">
+    <section role="region" id="downloads"><!--
 
     <gaia-header id="downloads-header" action="back" data-href="#root">
       <h1 data-l10n-id="downloads"></h1>
@@ -3007,7 +3035,8 @@
     <script src="js/downloads/downloads_list.js"></script>
   --></section>
     <!-- Device :: Battery -->
-    <section role="region" id="battery">
+    <section role="region" id="battery"><!--
+
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="battery-header"></h1>
     </gaia-header>
@@ -3052,7 +3081,7 @@
 
   --></section>
     <!-- Storage :: USB Transfer Protocol -->
-    <section role="region" id="usbStorage">
+    <section role="region" id="usbStorage"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="enableUSBStorage1"></h1>
@@ -3084,7 +3113,7 @@
 
   --></section>
     <!-- Storage :: Device Storage -->
-    <section role="region" id="applicationStorage">
+    <section role="region" id="applicationStorage"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="appStorage-header"></h1>
@@ -3124,7 +3153,7 @@
 
   --></section>
     <!-- Storage :: Media Storage -->
-    <section role="region" id="mediaStorage">
+    <section role="region" id="mediaStorage"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="mediaStorage-header"></h1>
@@ -3179,7 +3208,7 @@
 
   --></section>
     <!-- Device :: Accessibility :: Color Filter -->
-    <section role="region" id="accessibility-colors">
+    <section role="region" id="accessibility-colors"><!--
 
     <gaia-header action="back" data-href="#accessibility">
       <h1 data-l10n-id="colorFilter-header"></h1>
@@ -3213,7 +3242,7 @@
 
   --></section>
     <!-- Device :: Accessibility :: Audio -->
-    <section role="region" id="accessibility-audio">
+    <section role="region" id="accessibility-audio"><!--
 
     <gaia-header action="back" data-href="#accessibility">
       <h1 data-l10n-id="accessibility-audio"></h1>
@@ -3231,7 +3260,7 @@
 
   --></section>
     <!-- Device :: Accessibility :: Screen Reader -->
-    <section role="region" id="accessibility-screenreader">
+    <section role="region" id="accessibility-screenreader"><!--
 
     <gaia-header action="back" data-href="#accessibility">
       <h1 data-l10n-id="screenReader-header"></h1>
@@ -3280,7 +3309,7 @@
 
   </panel></panel>--></section>
     <!-- Device :: Accessibility :: Input -->
-    <section role="region" id="accessibility-input">
+    <section role="region" id="accessibility-input"><!--
 
     <gaia-header ignore-dir="" action="back" data-href="#accessibility">
       <h1 data-l10n-id="accessibility-input"></h1>
@@ -3303,7 +3332,7 @@
 
   --></section>
     <!-- Device :: Accessibility -->
-    <section role="region" id="accessibility">
+    <section role="region" id="accessibility"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="accessibility-header"></h1>
@@ -3342,7 +3371,7 @@
 
   </panel></panel>--></section>
     <!-- Device :: Developer :: HUD -->
-    <section role="region" id="developer-hud">
+    <section role="region" id="developer-hud"><!--
 
     <gaia-header action="back" data-href="#developer">
       <h1 data-l10n-id="hud-settings-header"></h1>
@@ -3489,7 +3518,7 @@
 
   --></section>
     <!-- Device :: Developer :: Service Workers -->
-    <section role="region" id="developer-service-workers">
+    <section role="region" id="developer-service-workers"><!--
 
     <gaia-header action="back" data-href="#developer">
       <h1 data-l10n-id="service-worker"></h1>
@@ -3520,7 +3549,7 @@
 
   --></section>
     <!-- Device :: Developer -->
-    <section role="region" id="developer">
+    <section role="region" id="developer"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="developer-header"></h1>
@@ -3822,7 +3851,8 @@
 
   --></section>
     <!-- Device :: Send Feedback -->
-    <section role="region" id="improveBrowserOS-sendFeedback">
+    <section role="region" id="improveBrowserOS-sendFeedback"><!--
+
   	<gaia-header action="back" id="feedback-header">
       <h1 id="feedback-title"></h1>
     </gaia-header>
@@ -3874,7 +3904,7 @@
 
   --></section>
     <!-- Device :: Send Feedback -->
-    <section role="region" id="improveBrowserOS-chooseFeedback">
+    <section role="region" id="improveBrowserOS-chooseFeedback"><!--
 
   	<gaia-header action="back" data-href="#improveBrowserOS">
       <h1 data-l10n-id="sendFeedbackTitle"></h1>
@@ -3907,7 +3937,7 @@
 
   --></section>
     <!-- Device :: Improve Browser OS -->
-    <section role="region" id="improveBrowserOS">
+    <section role="region" id="improveBrowserOS"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="improveBrowserOSTitle"></h1>
@@ -3992,7 +4022,7 @@
     <panel data-path="panels/improve_browser_os/panel"></panel>
   --></section>
     <!-- Device :: Help -->
-    <section role="region" id="help">
+    <section role="region" id="help"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="help"></h1>
@@ -4044,7 +4074,7 @@
     <script src="js/icc.js"></script>
   --></section>
     <!-- Firefox Accounts -->
-    <section role="region" id="fxa">
+    <section role="region" id="fxa"><!--
 
     <gaia-header action="back" data-href="#root">
       <h1 data-l10n-id="fxa-accounts-header"></h1>
@@ -4120,7 +4150,7 @@
     <panel data-path="panels/frame/panel"><panel>
   </panel></panel>--></section>
     <!-- Full Developer Mode -->
-    <section role="region" id="full-developer-mode">
+    <section role="region" id="full-developer-mode"><!--
     <div class="full-dev-mode-warning" hidden="">
       <gaia-confirm>
         <h1 data-l10n-id="enable-full-dev-mode-first-warning-title"></h1>
@@ -4156,7 +4186,7 @@
 
   --></section>
     <!-- Full Developer Mode Warning-->
-    <section role="region" class="dialog" id="full-developer-mode-warning">
+    <section role="region" class="dialog" id="full-developer-mode-warning"><!--
     <div class="full-dev-mode-warning" hidden="">
       <gaia-confirm>
         <h1 data-l10n-id="enable-full-dev-mode-first-warning-title"></h1>
@@ -4192,7 +4222,7 @@
 
   --></section>
     <!-- Full Developer Mode Final Warning -->
-    <section role="region" class="dialog" id="full-developer-mode-final-warning">
+    <section role="region" class="dialog" id="full-developer-mode-final-warning"><!--
     <div class="warning-dialog">
       <gaia-confirm>
         <h1 data-l10n-id="enable-full-dev-mode-final-warning-title"></h1>
@@ -4208,7 +4238,7 @@
 
   --></section>
     <!-- Partial Ums Warnings -->
-    <section role="region" class="dialog" id="ums-partial-warning">
+    <section role="region" class="dialog" id="ums-partial-warning"><!--
     <gaia-confirm>
       <h1 data-l10n-id="ums-partial-support-warning-title"></h1>
       <p>
@@ -4224,7 +4254,7 @@
     </gaia-confirm>
   --></section>
     <!-- SettingsDialog :: AlertDialog -->
-    <section role="region" class="dialog" id="settings-alert-dialog">
+    <section role="region" class="dialog" id="settings-alert-dialog"><!--
     <gaia-confirm>
       <h1 class="settings-dialog-title" data-l10n-id="settings-alert-dialog-header"></h1>
       <p class="settings-dialog-message"></p>
@@ -4234,7 +4264,7 @@
     </gaia-confirm>
   --></section>
     <!-- SettingsDialog :: ConFirmDialog -->
-    <section role="region" class="dialog" id="settings-confirm-dialog">
+    <section role="region" class="dialog" id="settings-confirm-dialog"><!--
     <gaia-confirm>
       <h1 class="settings-dialog-title" data-l10n-id="settings-confirm-dialog-header"></h1>
       <p class="settings-dialog-message"></p>
@@ -4245,7 +4275,7 @@
     </gaia-confirm>
   --></section>
     <!-- SettingsDialog :: PromptDialog -->
-    <section role="region" class="dialog" id="settings-prompt-dialog">
+    <section role="region" class="dialog" id="settings-prompt-dialog"><!--
     <form role="dialog" data-type="confirm">
       <section>
         <h1 class="settings-dialog-title" data-l10n-id="settings-prompt-dialog-header"></h1>
@@ -4263,7 +4293,7 @@
 
     <!-- templates -->
     <!-- templates :: Messaging -->
-    <section role="region" id="template-messaging">
+    <section role="region" id="template-messaging"><!--
 
     <header>
       <h2 data-l10n-id="cellBroadcastMessages"></h2>
@@ -4296,7 +4326,7 @@
   --></section>
 
     <!-- Main List -->
-    <section role="region" id="root">
+    <section role="region" id="root"><!--
 
     <gaia-header id="main-header">
       <h1 id="main-list-title" data-l10n-id="settings"></h1>
@@ -4548,10 +4578,7 @@
     <div class="settings-dialog-overlay" hidden=""></div>
 
     <script src="js/startup.js"></script>
-    <script type="text/javascript" src="base.js"></script>
-    <script type="text/javascript" src="webapp.js"></script>
-    <script type="text/javascript" src="offline.js"></script>
-
+	
   </body>
 
 </html>
